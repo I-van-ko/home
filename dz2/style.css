@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+/*header*/
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 50px;
+	background: #334872;
+}
+
+h2{
+	padding: 18px;
+	text-align: center;
+	text-decoration: underline;	
+	color: #fff;
+}
+
+.header-logo{
+	transition: 0.4s;
+}
+
+.header-logo:hover {
+	transform: rotateZ(15deg);
+}
+
+.header-menu{
+	margin: auto 0;
+}
+
+.header-menu ul{
+	display: flex;
+}
+
+.header-menu li{
+	display: flex;
+	padding: 10px;
+}
+
+.header-menu a{
+	color: #fff;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+/*main*/
+main{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.main-img{
+	width: 100%;
+}
+
+/*products*/
+.products {
+	display: flex;
+	flex-direction: column;
+	background: red;
+	padding: 20px;
+}
+
+.products-info{
+	display: flex;
+	margin: 20px auto; 
+	justify-content: center;
+}
+
+.products-info article{
+	width: 45%;
+	padding: 0 20px;
+	color: #fff;
+}
+
+.products-info p{
+	margin: 10px 0;
+} 
+
+.products-btt button{
+    width: 200px;
+    height: 40px;
+    background: #5d0808a8;
+    color: #fff;
+    border: 0;
+    font-size: 20px;
+}
+
+.products-btt{
+	margin: 0 auto;
+}
+
+.products-btt button:hover{
+	border: 0;
+	background: #5d0808 ;
+}
+
+/*rules*/
+.rules{
+	display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.rules h2{
+	color: #000;
+}
+
+.rules-shape{
+	display: flex;
+}
+
+.rules-shape img{
+	background: red;
+}
+
+.rules-shape-logo{
+	width: 25%;
+    text-align: end;
+}
+
+.rules-shape-text{
+	width: 50%;
+	padding: 0 20px 20px;
+}
+
+/*contact*/
+.contact{
+	display: flex;
+	flex-direction: column;
+	background: red;
+	padding: 20px; 
+}
+
+.contact-shape{
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-shape form{
+	display: flex;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.contact-shape-label{
+	width: 30%;
+	text-align: right;
+}
+
+.contact-shape-input{
+	width: 50%;
+	height: 100%;
+	margin: 0 20px; 
+}
+
+.contact-shape-input input{
+	width: 100%;
+}
+
+.input-massage{
+	padding-bottom: 100px;
+	margin-top: 5px;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	background: #334872;
+}
+
+.footer-menu li{
+	display: flex;
+}
+
+.footer-menu a{
+	padding: 5px 0;
+	color: #bfbebe;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+.footer-link {
+	display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.footer-logo a{
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	margin-left: 15px;
+	transition: 0.4s;
+}
+
+.footer-menu2{
+	padding-top: 50px;
+	color: #bfbebe;
+}
+
+.footer-menu2 a{
+	text-decoration: none;
+	color: #bfbebe;
+	transition: 0.4s;
+}
+
+a:hover{
+	color: #e7746f;
+}
